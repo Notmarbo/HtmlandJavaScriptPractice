@@ -15,6 +15,6 @@ window.onload = init;
 
 function onPressMeButtonClicked() {
     let username = nameTextBox.value;
-    greeting.innerHTML= `Hello to ` + username;
+    messagePara.innerHTML= `Hello to ` + username;
  
 }
